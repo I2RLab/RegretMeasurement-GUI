@@ -7,7 +7,12 @@ tic;
 % Get the ID of the participant.
 ParticipantID = input('Input your identity code:  ', 's');
 TestNumber    = input('What is this trial? t (Traning) or 1 (first)','s');
- 
+
+% Make a folder to store measured data (output data)
+if exist('ParticipantsRegretData', 'dir') == 0
+    mkdir ParticipantsRegretData;
+end
+
 % To allow the participants enough time to read the question statement,
 % time delay of the response panels is implemented.
 WaitingTime = 10;                   
