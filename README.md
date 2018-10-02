@@ -7,3 +7,8 @@ The Graphic User Interface (GUI) of the survey instrument is written in Matlab R
 
 The GUI is programmed with a screen resolution 1600x900. Using screen with other resolutions may result in slightly distorted display. These distortion can be adjusted by editing the related .fig files with GUIDE application in Matlab. 
 
+To start the survey instrument, execute Main.m in Matlab. There are a training session and an official session for the participants to choose. 
+
+To view the measured data, go to the folder named: ParticipantsRegretData. 
+
+To interpret and analyze the data, we need other tools which I will upload soon. 
