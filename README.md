@@ -11,4 +11,4 @@ To start the survey instrument, execute Main.m in Matlab. There are a training s
 
 To view the measured data, go to the folder named: ParticipantsRegretData. 
 
-To interpret and analyze the data, we need other tools which I will upload soon. 
+To interpret and analyze the data, we need other tools which are in the RegretDataAnalysis repository in my account. 
